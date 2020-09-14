@@ -1,0 +1,24 @@
+/*
+CSS: Cascading stylesheet
+  css parts:
+    Selector
+    Rules: property & value
+*/
+
+/*body {
+    background-color: blueviolet;
+}
+*/
+#firstDiv {
+    background-color: grey;
+    margin: 10px
+}
+#thirdDiv {
+    background-color: red;
+    margin: 20px;
+}
+/*p {
+    color: red;
+    font-size: 40px;
+}
+*/
