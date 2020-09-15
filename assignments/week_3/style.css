@@ -13,6 +13,7 @@ CSS: Cascading stylesheet
     background-color: grey;
     margin: 10px
 }
+
 #thirdDiv {
     background-color: red;
     margin: 20px;
@@ -22,3 +23,32 @@ CSS: Cascading stylesheet
     font-size: 40px;
 }
 */
+/*padding together to end up with 300pixels.*/
+.box {
+    width: 266px;
+    height: 290px;
+    background-color: cornsilk;
+    border-style: solid;
+    border-width: 5px;
+    border-color: cyan;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    padding-left: 12px;
+    padding-right: 12px;
+    /*padding-top: 100;*/
+}
+
+#special-paragraph {
+    font-size: 24px;
+    font-family: "Arial";
+    color: purple;
+    /*text-decoration: overline underline;*/
+    font-weight: bold;
+    font-style: italic;
+    line-height: 48px;
+   /* direction: rtl;
+    unicode-bidi: bidi-override;*/
+    text-align: center;
+}
