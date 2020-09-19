@@ -1,0 +1,42 @@
+div {
+
+}
+
+
+#first {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+#second {
+    width: 200px;
+    height: 200px;
+}
+
+#third {
+    width: 400px;
+    height: 400px;
+}
+
+
+
+.green {
+    background-color: green;
+    border: solid 10px darkgreen;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: purple;
+    background-color: inherit;
+}
+
+/*
+Order of specificity:
+ID seletor, Class selector, Element selector
+*/
+

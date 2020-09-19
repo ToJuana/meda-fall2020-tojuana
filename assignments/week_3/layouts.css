@@ -1,0 +1,59 @@
+/* Normally we would have a parent div holding #header, #main, and #footer so we can apply margin-left and margin-right to this parent div instead of every div on the webpage.*/
+
+#header {
+    width: 700px;
+    height: 200px;
+    background-color: blanchedalmond;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main {
+    width: 660px;
+    height: 1000px;
+    background-color: lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+#footer {
+    width: 700px;
+    height: 50px;
+    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sidebar {
+    width: 150px;
+    height: 1000px;
+    background-color: skyblue;
+    display: inline-block;
+}
+
+#article {
+    width: 468px; /* takes into consideration padding and border size, should total 510px */
+    height: 958px; /* takes into consideration padding and border size, should total 1000px */
+    background-color: pink;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    border: 1px solid red; /* shorthand for border-width, border-style, and border-color;*/
+}
+
+.gallery {
+    width: 77px;
+    height: 200px;
+    background-color: silver;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    
+}
+#gallery-container {
+    line-height: 0px;
+}
