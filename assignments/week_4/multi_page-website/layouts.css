@@ -1,0 +1,117 @@
+/* Normally we would have a parent div holding #header, #main, and #footer so we can apply margin-left and margin-right to this parent div instead of every div on the webpage.*/
+body {
+    background-color: 
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+#container header nav {
+  margin-bottom: 0;
+  padding-top: 157px;
+}
+
+/* cover position for this section*/
+#container header nav ul {
+    /* border: dashed green 1px; */
+    padding-left: 0;
+    width: 350px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    
+}
+
+#container header nav ul li {
+  /* border-style: dashed; */
+  /* border-color: red; */
+  /* border-width: 1px; */
+  display: inline-block;  /*Applies to the text*/
+   /*font-size: 2em;*/
+  background-color: lightgreen;
+  border-radius: 5px;
+  
+  
+ }
+ /*This is how you make a button(style the anchor)*/
+ #container header nav ul li a {
+    font-family: arial;
+    line-height: 32px;
+    display: inline-block;
+    height: 32px;
+    padding-left: 10px;
+    padding-right: 10;
+    color: white;
+    text-decoration: none; /*no line under text*/
+ }
+header {
+    height: 200px;
+    background-color: blanchedalmond;
+   }
+
+main {
+    background-color: lightgray;
+    padding: 20px;
+    vertical-align: middle;
+}
+#home p, #home h1 {
+   color: darkgreen;
+}
+#about p {
+    color: fuchsia;
+}
+#about h1 {
+    color: fuchsia;
+}
+#about h2 {
+    color: fuchsia
+}
+
+
+footer {
+    height: 50px;
+    background-color: grey;
+}
+footer p {
+  text-align: center;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+#sidebar {
+    width: 150px;
+    height: 1000px;
+    background-color: skyblue;
+    display: inline-block;
+}
+
+#article {
+    width: 468px; /* takes into consideration padding and border size, should total 510px */
+    height: 958px; /* takes into consideration padding and border size, should total 1000px */
+    background-color: pink;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    border: 1px solid red; /* shorthand for border-width, border-style, and border-color;*/
+}
+
+.gallery {
+    width: 77px;
+    height: 200px;
+    background-color: silver;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    
+}
+#gallery-container {
+    line-height: 0px;
+}
