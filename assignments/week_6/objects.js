@@ -96,7 +96,9 @@ myEmployees.length;
 
 
 // An object's Property holds data (that belongs to that object).
+// Properties are just variable that are held by an object.
 // An Object's Method holds a function (that belongs to that object).
+// Methods are just Functions that are held by an object.
 
 var myArray2 = [
     100,
