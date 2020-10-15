@@ -4,7 +4,7 @@ $(document).ready(function () {
       $("body").append("<div id='content'></div>");
       //.append ADDS to existing children, and is placed at the end of the children's list.
 
-      $("div#content").html("<p>Hello there!</p>");
+      $("div#content").html("<p>Hello there!</p><br />");
       //.html REMOVES existing children elements of selected element, and adds in what we typed in the argument.
 
             
