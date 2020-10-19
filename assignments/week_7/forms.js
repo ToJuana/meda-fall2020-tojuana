@@ -7,11 +7,11 @@ $(document).ready(function () {
     var firstNumberConvertedString = parseInt(firstNumberString);
     var secondNumberConvertedString = parseInt(secondNumberString);
 
-      "hello" -> NaN
+     /* "hello" -> NaN
       "100Hello" -. 100;
       "100" -> 100;
       "90tierfoeudk" -> 90;
-      true -> NaN // is some other languages you 
+      true -> NaN // is some other languages you get 1 
     
 
     //isNaN() checks if the argument is an NaN, if it is , returns true, if it is not, return false.
